@@ -7,14 +7,15 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@companion-module/base@~1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@companion-module/base/-/base-1.4.3.tgz#0e83955c8fc41e8f525f29ddf7a32cb70dbc2ec5"
-  integrity sha512-bIcJ75idsdILW5/sd1HoX0HkIRcwMyMZ2nccj/I2xJMDnn93Rz54aQ9zn3ZePvqP+H1N/x45VWC1IHMVzReT7Q==
+"@companion-module/base@~1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@companion-module/base/-/base-1.6.0.tgz#1caa1b310855a757a0a55eb4b1f1b301f37615e3"
+  integrity sha512-KnsgHtgmB36t2wlBSYyRgw4eSrm6rJXoBWClBURfssk9OgochaJtWwPLuA/SgjLAxPOnTTNt4PvHgzcVv6MjYg==
   dependencies:
     "@sentry/node" "^7.63.0"
     "@sentry/tracing" "^7.63.0"
     ajv "^8.12.0"
+    colord "^2.9.3"
     ejson "^2.2.3"
     eventemitter3 "^4.0.7"
     mimic-fn "^3.0.0"
@@ -23,10 +24,10 @@
     p-timeout "^4.1.0"
     tslib "^2.6.1"
 
-"@companion-module/tools@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@companion-module/tools/-/tools-1.4.0.tgz#b949aec311a2e1354c668f5e88a0cf1edb792224"
-  integrity sha512-mNCH0LMQcqy98s2ge5040YLQcQkrHvo694tWpJ9XeCmZMf8AipcQ4vhyZ5JZL/otgCAWBnVPG64MN6cb6v19OQ==
+"@companion-module/tools@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@companion-module/tools/-/tools-1.4.2.tgz#9c2ff326f81dc2bc6ff175ce596242c308df26ab"
+  integrity sha512-orYowae8KRLdtezezxgwxQTmSbBFAU3ngy3sOyNC9DTy7O70nP/tKvMQJJXy+h3VgYzStTGf7Cx+SOGGoB7uOA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.59.9"
     "@typescript-eslint/parser" "^5.59.9"
@@ -697,6 +698,11 @@ color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+
+colord@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/colord/-/colord-2.9.3.tgz#4f8ce919de456f1d5c1c368c307fe20f3e59fb43"
+  integrity sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==
 
 colorette@^2.0.14:
   version "2.0.20"
